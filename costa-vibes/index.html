@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSTA VIBES</title>
+  <link rel="stylesheet" href="style.css?v=2"> </head>
+<body>
+
+  <header class="navbar contenedor">
+    <div class="logo">Camila Cano</div>
+    <nav class="nav-links">
+      <button data-section="inicio">Inicio</button>
+      <button data-section="servicios">Servicios</button>
+      <button data-section="contacto">Contacto</button>
+    </nav>
+    <button class="cta" data-section="asistente-virtual">Pedido Online</button>
+  </header>
+
+
+  <section class="hero contenedor" id="inicio">
+  <div class="hero-text">
+    <h1>Bienvenidos a <span class="gradient-text">COSTA VIBES</span>🌴</h1>
+    <p>Descubre la moda de la costa en cada experiencia digital y única.</p>
+
+  </section>
+
+  <section id="asistente-virtual">
+  <h2>Asistente Virtual</h2>
+
+  <div id="chat-container">
+    
+    <div id="chat">
+      <div class="mensaje bot">Hola, soy tu asistente 🤖 ¿En qué puedo ayudarte?</div>
+    </div>
+
+    <div id="opciones">
+      <button>Ver productos</button>
+      <button>Precios</button>
+      <button>Contacto</button>
+    </div>
+
+  </div>
+</section>
+
+  <section id="servicios">
+    <h2 class="titulo-servicios">Nuestros servicios</h2>
+    
+    <div class="info-cards">
+      
+      <div class="card">
+        <h3>Ropa de playa</h3>
+        <p>Moda para disfrutar bajo el sol y la brisa marina.</p>
+      </div>
+      
+
+      <div class="card">
+        <h3>Servicios de moda</h3>
+        <p>Diseño y venta de ropa de alta calidad para el estilo de vida costero.</p>
+      </div>
+
+      <div class="card">
+        <h3>Asesoramiento personalizado</h3>
+        <p>Asesoramiento para una experiencia de compra única y personalizada.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <form id="formulario" class="formulario">
+      <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      <input type="number" id="numero" name="numero" placeholder="Tu numero" required>
+      <textarea id="mensajeInput" name="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+      <p id="mensajeForm"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Camila. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
+
+
+
